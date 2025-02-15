@@ -1,0 +1,29 @@
+section {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    flex-wrap: wrap; /* Permite que os cards se ajustem em telas menores */
+    gap: 20px; /* Espaçamento entre os cards */
+    text-align: center; /* Centraliza os textos */
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.card {
+    margin: 10px; /* Um pequeno espaçamento entre os cards */
+}
+
+.navbar-nav {
+    width: 100%; /* Garante que ocupe toda a largura disponível */
+    display: flex;
+    justify-content: space-evenly; /* Distribui os itens igualmente */
+}
+
+
+.card-img-top {
+    object-fit: cover; /* Faz com que a imagem preencha o espaço sem distorcer */
+    height: 250px; /* Ajusta a altura conforme necessário */
+    width: 100%; /* Garante que a largura ocupe o espaço do contêiner */
+}
