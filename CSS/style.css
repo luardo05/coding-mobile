@@ -45,3 +45,15 @@ h1{
 
     
 }
+
+
+#divUm{
+    margin: auto;
+    background-color: #bdd1de;
+    width: 80%;
+    height: auto;          /* Altura original da div */
+    /*transform: scale(0.5); /* Reduz o tamanho da div em 50% */
+    /*transform-origin: top left; /* Define o ponto de origem para a transformação (topo esquerdo) */
+
+    
+}
