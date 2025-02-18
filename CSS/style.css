@@ -1,3 +1,7 @@
+body{
+    background-color: #797e7f !important;
+}
+
 section {
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
@@ -21,9 +25,23 @@ h1{
     justify-content: space-evenly; /* Distribui os itens igualmente */
 }
 
+.navbar {
+    margin-bottom: 0;
+}
 
 .card-img-top {
     object-fit: cover; /* Faz com que a imagem preencha o espaço sem distorcer */
     height: 250px; /* Ajusta a altura conforme necessário */
     width: 100%; /* Garante que a largura ocupe o espaço do contêiner */
+}
+
+#divUm{
+    margin: auto;
+    background-color: #bdd1de;
+    width: 80%;
+    height: auto;          /* Altura original da div */
+    /*transform: scale(0.5); /* Reduz o tamanho da div em 50% */
+    /*transform-origin: top left; /* Define o ponto de origem para a transformação (topo esquerdo) */
+
+    
 }
