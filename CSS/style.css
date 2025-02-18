@@ -18,6 +18,15 @@ h1{
 .card {
     margin: 10px; /* Um pequeno espaçamento entre os cards */
 }
+.card-custom {
+    background-color: #bcbcbb !important; /* Cor personalizada */
+    color: black !important; /* Mantém o texto visível */
+}
+.card-custom .btn {
+    background-color: #797e7f;
+    color: white;
+}
+
 
 .navbar-nav {
     width: 100%; /* Garante que ocupe toda a largura disponível */
