@@ -32,7 +32,129 @@
         </div>
     </nav>
     <br>
+    <form action="">
+        <div class="row">
+            <div class="col">
+                <label for="exampleInputEmail1" class="form-label">Nome:</label>
+                <input type="text" class="form-control" aria-label="First name">
+            </div>
+            <div class="col">
+                <label for="exampleInputEmail1" class="form-label">Sobrenome:</label>
+                <input type="text" class="form-control" aria-label="Last name">
+            </div>
+        </div>
+        <br>
+        <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Telefone:</label>
+            <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <br>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Mensagem:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <select class="form-select" aria-label="Default select example">
+            <option selected>língua aplicada no serviço</option>
+            <option value="1">Espanhol</option>
+            <option value="2">Ingles</option>
+            <option value="3">Portugues(pt-br)</option>
+        </select>
+        <br>
+        <div class="mb-3">
+            <label for="formFile" class="form-label">PDF, DOC, DOCX, JPEG ou PNG;</label>
+            <input class="form-control" type="file" id="formFile">
+        </div>
 
+        <h6>Selecione sua preferência de linguagem:</h6>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                Java Script
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                Java
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                Python
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckChecked">
+                C
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                C#
+            </label>
+        </div>
+        <br>
+
+        <h6>Escolha o banco de dados de sua preferência:</h6>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+                Oracle database
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+                MySQL
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+                PostgreSQL
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+                MongoDB
+            </label>
+        </div>
+        <br>
+
+        <h6>Turno para reuniões:</h6>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+            <label class="form-check-label" for="inlineCheckbox1">Manhã</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+            <label class="form-check-label" for="inlineCheckbox2">Tarde</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option3">
+            <label class="form-check-label" for="inlineCheckbox2">Noite</label>
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="horario">Indique o melhor horário sugerido para reuniões:</label>
+            <br>
+            <input type="time" id="horario" name="horario">
+        </div>
+        <br>
+        <br>
+
+        <button type="submit" class="btn btn-info">Enviar</button>
+        <button type="reset" class="btn btn-info">Limpar dados</button>
+    </form>
 </body>
 
 </html>
